@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USCS</title>
+	<meta name="author" content="George Lucas" />
+	<meta name="keywords" content="Imagens" />
+	<meta name="viewport" 
+		content="width=device-width, initial-scale=1.0" />
+	<style>
+body {color: olive;}
+p, div {color: darkblue;}
+h1 {color: pink;}
+h3 {color: magenta;}
+h4 {color: lightseagreen;}
+hr {
+	border-color: indigo;
+	background-color: indigo;
+}
+	</style>
+</head>
+<body style="font-size:3em">
+    <figure>
+      <img style="height:12vh;" src="./img/USCS.png" alt="USCS" />
+      <figcaption>
+        Fig.1 - Logotipo da USCS.
+      </figcaption>
+    </figure>
+<br /><br /><br />
+	<svg width="400" height="100">
+		<rect width="400" height="100" 
+			stroke="darkblue" stroke-width="6" 
+			fill="cyan" />
+	</svg>
+<br />
+	<svg width="400" height="180">
+		<rect width="150" height="150" 
+			x="50" y="20" rx="20" ry="60" 
+			stroke="maroon" stroke-width="8" 
+			fill="antiquewhite" />
+	</svg>
+<br />
+	<svg width="200" height="200">
+		<circle cx="100" cy="100" r="95" 
+			stroke="olive" 
+			stroke-width="4" 
+			fill="darkgreen" />
+	</svg>
+<br />
+	<svg width="300" height="200">
+	  <polygon points="100,10 40,198 190,78 10,78 160,198" 
+			stroke="purple" 
+			
+			stroke-width="5" fill="lime" />
+	</svg>
+<br /><br />
+INKSCAPE - salva por padrão SVG
+<br />
+	<svg width="300" height="200">
+	  <polygon points="100,10 
+						80,82 
+						10,82 
+						65,128 
+						40,198 
+						98,156 
+						160,198 
+						137,128 
+						190,78 
+						124,84"
+			stroke="purple" 
+			stroke-width="5" fill="lime" />
+	</svg>
+
+	
+<br /><br /><br />
+	<svg height="120" width="400">
+	  <defs>
+		<linearGradient  id="meuGradual_01"  x1="0%"  y1="0%"  x2="100%"  y2="60%">
+	
+		<stop offset="0%" 
+			style="stop-color:#0078ff; stop-opacity:1" />
+		<stop offset="30%" 
+			style="stop-color:green; stop-opacity:1" />
+		<stop offset="70%" 
+			style="stop-color:pink; stop-opacity:1" />
+		<stop offset="100%" 
+			style="stop-color:#aa44aa; stop-opacity:1" />
+		</linearGradient>
+	  </defs>
+
+	  <ellipse  cx="190"  cy="60"  rx="180"  ry="50" 
+			fill="url(#meuGradual_01)" />
+	  <text fill="white" font-size="45" font-family="Verdana" x="80" y="76">USCS</text>
+	</svg>
+
+
+<br /><br /><br />
+
+	<table style="border: 10px dotted darkgray; 
+					width:97vw; height:37vh" >
+	  <caption>População dos municípios:</caption>
+	  <tr>
+		<td style="border: 13px dashed green;" >São Paulo</td>
+		<td style="border: 13px dashed yellow;" >Rio de Janeiro</td>
+		<td style="border: 13px dashed orange;" >Belo Horizonte</td>
+	  </tr>
+	  <tr>
+		<td style="border: 12px solid darkblue;" >12.332.000</td>
+		<td style="border: 12px solid darkgreen;" > 6.748.000</td>
+		<td style="border: 12px solid maroon;" > 2.722.000</td>
+	  </tr>
+	</table>
+
+<br /><br /><br />
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<br /><br /><br />
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<div style="float: right"> 
+	<ol start="50">
+	  <li>Coffee</li>
+	  <li>Tea
+		<ol>
+		  <li>Black tea</li>
+		  <li>Red fruit tea</li>
+		  <li>Green tea</li>
+		</ol>
+	  </li>
+	  <li>Milk</li>
+	</ol>
+</div>
+
+<br /><br /><br />
+<br /><br /><br />
+</body>
+</html>
