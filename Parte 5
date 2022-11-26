@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+	<title>USCS - Parte 5</title>
+	<meta name="author" content="George Lucas" />
+	<meta name="keywords" content="Imagens" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<style>
+body { color: olive; font-size:2em }
+input, textarea, select { color: darkgreen; font-size:1em }
+p, div { color: darkblue; }
+h1 { color: pink; }
+h3 { color: magenta; }
+h4 { color: lightseagreen; }
+hr { border-color: indigo;	background-color: indigo; }
+header { position:fixed; }
+a { text-decoration: none; }
+a:link { /* link não visitado */ color: navy; }
+a:visited { /* link visitado */  color: green; }
+a:hover { /* link ao passar o ponteiro mouse */ color: hotpink; }
+a:active { /* link já selecionado */ color: blue; }
+	</style>
+</head>
+<body style="text-align:center;">
+  <nav style="background-color:lightgray;">
+	<a href="https://uscs.edu.br/" target="_blank">
+	  <img src="./img/uscs.png" alt="USCS" width="7%"/>
+	</a>&nbsp;
+	<div style="vertical-align:top;display:inline-block" >
+		<a href="https://www.w3schools.com/html/" >HTML</a> |
+		<a href="https://www.w3schools.com/css/" >CSS</a> |
+		<a href="https://www.w3schools.com/js/" >JavaScript</a> |
+		<a href="https://www.w3schools.com/python/" >Python</a>
+	</div>
+  </nav>
+  <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+
+	<label> Primeiro nome: 
+		<input type="text" id="fname" name="fistname" />
+	</label>
+	<br /><br />
+
+	<label> Sobrenome: 
+		<input type="text" id="lname" name="lastname" /> 
+	</label>
+	<br /><br />
+
+	<label> Fale sobre você no espaço abaixo <br />
+		<textarea rows="6" cols="30" id="fale" name="fale" title="Digite aqui sobre você">
+Aqui um exemplo de dados já digitados! 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis justo non metus pharetra, ac lobortis velit elementum. In pretium metus vestibulum, convallis purus tincidunt, faucibus massa. Nulla euismod nisl a nibh tincidunt lacinia. Donec eu auctor sapien. Aenean sodales rhoncus nisl, quis vestibulum tortor pellentesque ac. Nulla tempus nisi ac felis venenatis, et consequat est vehicula. Mauris quis orci sed turpis maximus sagittis. Fusce facilisis, nulla sed cursus euismod, lectus velit maximus odio, pulvinar posuere justo velit non enim. Sed risus est, fringilla ut augue a, placerat imperdiet orci. Integer vehicula porta turpis, ut faucibus felis fermentum id. Proin suscipit nisi quam, at consectetur eros ultrices vitae. Nullam justo libero, euismod id pellentesque sit amet, gravida vitae ligula.
+Phasellus aliquet auctor lorem, vitae tincidunt orci bibendum sed. Vivamus sapien dui, consectetur eu ligula sed, egestas molestie tellus. In facilisis at sapien id consequat. Praesent finibus nisi a ullamcorper mollis. Quisque porta dignissim elit, in consectetur ante sollicitudin sit amet. Pellentesque vel quam semper, lacinia purus ac, consectetur velit. Donec nulla tellus, mattis quis tristique mattis, molestie ut velit. Cras at dui nec felis elementum lobortis aliquam eu ligula. Curabitur vel placerat augue, vitae accumsan tortor. Fusce mollis at enim et feugiat. Donec mollis laoreet turpis ut sodales. In ut odio tempus, posuere urna id, maximus mi. Aliquam orci turpis, eleifend at est sed, pretium pretium dui. Morbi dapibus ligula quis nunc rhoncus, quis elementum erat sodales.
+Donec vel consectetur arcu. Suspendisse elit purus, consequat quis cursus id, tincidunt eget diam. Quisque vel turpis sed massa sollicitudin luctus iaculis quis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum quis ultricies nisl. Donec eu mollis purus. Nullam iaculis suscipit tincidunt. Phasellus commodo metus sed est rhoncus malesuada. Vestibulum ut pretium sapien. Duis eget ligula ut neque accumsan tempor.
+Pellentesque quis orci nunc. Phasellus id viverra dolor, nec molestie nulla. Sed venenatis lacinia arcu, at facilisis massa sollicitudin a. Mauris vel sodales eros. Suspendisse luctus vulputate ex, at sollicitudin turpis faucibus in. Suspendisse luctus sed erat eget cursus. Phasellus id mattis elit. Nam pharetra neque vitae velit condimentum volutpat. Sed sollicitudin interdum lacus id euismod. Integer ac viverra arcu. Vestibulum non mi pretium, efficitur mi id, condimentum eros. Morbi non ipsum non tellus dictum viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut semper laoreet velit et euismod.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique nibh in fringilla tempus. Vestibulum et justo sodales, laoreet dolor quis, molestie ante. Curabitur augue ante, euismod varius velit in, pellentesque maximus elit. Sed tristique nibh elementum consequat iaculis. Sed est ex, eleifend ac ultricies mattis, aliquam id metus. Donec fermentum nunc nunc, a feugiat diam vehicula ac. Suspendisse eu odio non turpis rhoncus auctor id ut risus. Sed id enim ut lectus sagittis eleifend. Aenean efficitur, lectus vitae malesuada blandit, felis velit laoreet sem, et elementum urna purus nec nunc.
+Etiam consequat ultricies nibh, at vulputate enim tincidunt vel. Curabitur varius finibus sem id rutrum. Fusce et bibendum odio, a dictum nibh. Vestibulum ultrices libero at velit semper volutpat. Nullam nec ipsum libero. Curabitur et diam ullamcorper, pretium ex non, bibendum lectus. Curabitur nec pulvinar arcu. Phasellus porttitor quam vitae nisi accumsan, nec pulvinar elit venenatis. Suspendisse potenti.
+Nunc vel scelerisque risus. In urna sapien, auctor quis facilisis ac, gravida sed odio. Donec urna est, auctor ut massa non, interdum viverra turpis. Aliquam porttitor ultricies mattis. Quisque sed aliquam magna, non hendrerit odio. In tempor metus sed tortor mollis, nec volutpat metus gravida. Ut a ligula orci. Praesent nisi est, dapibus posuere velit scelerisque, gravida vulputate eros. Nunc quis nunc nisl. Proin a gravida ligula, nec accumsan arcu. Fusce lorem quam, ornare vitae tortor congue, laoreet efficitur dui. Nunc at ipsum odio. Nulla tempor elit elit, in mattis turpis volutpat eu. Integer odio mauris, tincidunt finibus imperdiet vitae, molestie ac metus. Aenean feugiat lectus in sollicitudin accumsan.
+Mauris venenatis molestie ante sed sagittis. Donec hendrerit aliquam egestas. Vivamus ullamcorper tempor tellus eu finibus. Curabitur ut lorem augue. In sed leo eros. Curabitur id quam ac augue auctor vestibulum id sit amet lorem. Quisque varius diam id tortor scelerisque vestibulum. Integer quis ultrices neque, sed ullamcorper leo. Curabitur aliquet consequat blandit. Nullam id sapien ex. Duis a nisl sed urna posuere molestie nec nec nulla. Ut sit amet dictum mi. Donec fermentum, justo sit amet eleifend pharetra, urna nisi porta sem, nec vestibulum nisl ipsum nec mauris. Suspendisse bibendum ultricies erat a eleifend. Nam molestie, turpis a malesuada laoreet, orci nisl fringilla quam, eget molestie augue quam id odio.
+Morbi eget volutpat ligula, ac aliquet quam. Pellentesque commodo, ante id eleifend tempor, mi mauris tempor nisl, ac sodales velit risus at nisl. Donec a dui sit amet diam lacinia placerat. Praesent rhoncus justo non tortor posuere consequat. Vestibulum maximus semper maximus. Integer id malesuada sapien, at tincidunt neque. Ut sem justo, pharetra at lectus ornare, volutpat vehicula leo. Fusce placerat libero sed leo tristique, a tempor quam pharetra.
+Donec lacinia maximus lacus pharetra imperdiet. Donec ac lobortis elit, et viverra felis. Morbi dignissim neque nec ante vestibulum bibendum. Etiam et sapien lacinia, tempus turpis eu, sollicitudin purus. Etiam vitae neque magna. Nullam placerat justo quis enim interdum ultricies. Mauris sodales mi sit amet felis lobortis efficitur. Phasellus pretium, risus eget pretium bibendum, ligula dui tempus elit, et vestibulum risus ante quis dui. In iaculis sed purus ut ultrices. Aenean gravida interdum lacus, vel consequat elit gravida quis. Donec blandit nec elit eget lacinia. Aenean vel leo felis. Duis ante risus, tincidunt sed ultrices at, suscipit vitae odio. Suspendisse eleifend libero at justo tristique vulputate.
+		</textarea>
+	</label>
+	<br />
+	<button type="submit" value="Submit">Enviar</button>
+	<button type="reset" value="Reset">Resetar</button>
+  </form>
+
+  <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" >
+	<label for="carros">Escolha um fabricante:</label>
+	<select name="carros" id="carros">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="opel" selected>Opel</option>
+		<option value="audi">Audi</option>
+	</select>
+	<br><br>
+	<button type="submit" value="Testar">Testar</button>
+  </form>
+
+</body>
