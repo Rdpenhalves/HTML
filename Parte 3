@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USCS - Parte 3</title>
+	<meta name="author" content="George Lucas" />
+	<meta name="keywords" content="Imagens" />
+	<meta name="viewport" 
+		content="width=device-width, initial-scale=1.0" />
+	<style>
+body {color: olive;}
+p, div {color: darkblue;}
+h1 {color: pink;}
+h3 {color: magenta;}
+h4 {color: lightseagreen;}
+hr {
+	border-color: indigo;
+	background-color: indigo;
+}
+header {
+	position:fixed;
+}
+	</style>
+</head>
+<body style="font-size:2em">
+	<a id="meulocal"><h1>Bem vindo a USCS</h1></a>
+	<header>Topo do meu assunto ou documento.</header>
+<br /><br /><br />
+
+<details>
+  <summary>Campus <a href="#epcot">situado</a> em São Caetano do Sul</summary>
+  <a href="http://www.uscs.edu.br" target="_blank">
+	  <p>Rua Conceição, 321<br />Bairro Santo Antônio</p>
+	  <img src="./img/Addo_CrocodileRanch_AddoLion_a06f22.jpg" alt="Leão x Cachorro" width="40%" />
+  </a>
+</details>
+<br /><br /><br />
+	<a href="mailto:claudio.gananca@online.uscs.edu.br">
+		Me mande um e-Mail</a>
+<br /><br />
+	<a href="tel:+5511999990000">Ligar para 9-9999-0000</a>
+<br /><br />
+
+	<a href="javascript:alert('Olá Mundo!')" >Scriptando</a>
+
+<br /><br /><br />
+
+<div>Lista de<span id="tp_titulo" style="background-color:lightgreen;"> produtos&nbsp;</span>com texto depois</div>
+
+<ul>
+  <li><data value="A1053">Arroz Número Um</data></li>
+  <li><data value="A1122">Macarrão Tagliarini</data></li>
+  <li><data value="A1055">Feijão Ribeirão</data></li>
+</ul>
+
+
+
+<br /><br /><br />
+<dialog style="display:block;width:35%;position:absolute; z-index:1;float:left; margin-left:30%;background-color:yellow;" >
+  <h5>ATENÇÃO</h5>
+  <p>Aqui uma mensagem de erro de exemplo para o pessoal em treinamento.</p>
+</dialog>
+<main>
+  <article>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Scelerisque felis imperdiet proin fermentum leo. Blandit turpis cursus in hac habitasse platea dictumst. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Enim blandit volutpat maecenas volutpat blandit. Sed arcu non odio euismod lacinia at quis. Magna sit amet purus gravida. Pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada. Odio pellentesque diam volutpat commodo. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Ornare arcu dui vivamus arcu felis bibendum.
+  </article>
+</main>
+
+
+
+
+<br /><br /><br />
+<br /><br /><br />
+	<aside style="width:20%;float:left;margin-right:15px;background-color:lightgray;">
+		<h4 id="epcot">Epcot Center</h4>
+		<p>O Epcot é um parque temático no Walt Disney World Resort com atrações emocionantes, pavilhões internacionais, fogos de artifício premiados e eventos especiais sazonais.</p>
+	</aside>
+	<main style="display:grid;">
+	  <section>
+		<h2>Histórico do WWF</h2>
+		<p>O World Wide Fund for Nature (WWF) é uma organização internacional que trabalha em questões relacionadas à conservação, pesquisa e restauração do meio ambiente, anteriormente denominada World Wildlife Fund. O WWF foi fundado em 1961.</p>
+	  </section>
+	  <section>
+		<h2>Símbolo da WWF</h2>
+		<p>O Panda tornou-se o símbolo da WWF. O conhecido logotipo do panda da WWF originou-se de um panda chamado Chi Chi que foi transferido do Zoológico de Pequim para o Zoológico de Londres no mesmo ano do estabelecimento do WWF.</p>
+	  </section>
+	</main>
+
+
+
+	<main>
+	  <h1>Navegadores mais Populares</h1>
+	  <p>Chrome, Firefox, e Edge são os navegadores mais usados atualmente.</p>
+	</main>
+	<article>
+		<h2>Google Chrome</h2>
+		<p>Google Chrome é um navegador web desenvolvido pela empresa Google, lançado em 2008. Chrome é o navegador mais popular do mundo nos dias de hoje!</p>
+	</article>
+	<article>
+		<h2>Mozilla Firefox</h2>
+		<p>Mozilla Firefox é um navegador web de código aberto (<i>open-source</i>) desenvolvido pela empresa Mozilla. Firefox é o segundo navegador mais popular do mundo desde Janeiro de 2018.</p>
+	</article>
+	<article>
+		<h2>Microsoft Edge</h2>
+		<p>Microsoft Edge é um navegador web browser desenvolvido pela Microsoft, lançado em 2015. Microsoft Edge substituiu o Internet Explorer e é extremamente aderente às funcionalidades disponíveis para HTML5 e CSS3.</p>
+	</article>
+<br /><br /><br />
+
+	<ol>
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol>
+	<ol start="50">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol>
+<br /><br /><br />
+	<dl style="text-align:center">
+	  <dt>Coffee</dt>
+	  <dd>Café com opções de preparo quente ou frio.</dd>
+	  
+	  <dt>Milk</dt>
+	  <dd>Leite puro,com açúcar ou achocolatado.</dd>
+	  
+	  <dt>Tea</dt>
+	  <dd>Chá com vários sabores, servidos quentes ou frios.</dd>
+	</dl>
+<br /><br /><br />
+
+<br /><br /><br />
+	<footer>
+		USCS &reg; &#9861;&#9856; 
+		<a href="#meulocal">Clique aqui para ir para o começo</a>
+	</footer>
+</body>
+</html>
