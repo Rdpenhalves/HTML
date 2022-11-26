@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USCS</title>
+	<meta name="author" content="George Lucas" />
+	<meta name="keywords" content="Cão, Cães, Dog, Cachorr" />
+	<meta name="viewport" 
+		content="width=device-width, initial-scale=1.0" />
+	<style>
+body {color: olive;}
+p, div {color: darkblue;}
+h1 {color: pink;}
+h3 {color: magenta;}
+h4 {color: lightseagreen;}
+hr {
+	border-color: indigo;
+	background-color: indigo;
+}
+	</style>
+	<script>
+		// alert("Oi!");
+	</script>
+</head>
+<body>
+	<h1>Página sobre <big><big><big><big>cães</big></big></big></big></h1>
+	<h3>Cães de porte <small><small><small>pequeno</small></small></small></h3>
+	<h4>Poodle Toy</h4>
+	<div>Geralmente se apresenta na cor <b>champanhe</b>.</div>
+<hr />
+	<h4>Shi-Tsu</h4>
+	<div>Geralmente são <b><i>dourados</i></b> com patas e pés <cite><strong>brancos</strong></cite>.
+		<p>Traduzindo o nome da raça, significa "pequeno leão", por causa da sua aparência.
+		</p>
+	</div>
+<br />
+	<div>Fórmula da água: <br />
+		H<sub>2</sub>O <br />
+		ou uma mais complexa, como da serotonina <b>C<sub>10</sub>H<sub>12</sub></b>.<br />
+	</div>
+<br />
+	<div>
+		Equação:<br />
+		X<sup><small>3</small></sup> + 3Y<sup><small>(-213)</small></sup> = 0
+	</div>
+<br /><br />
+	<div>
+		As Prof<sup><small>as</small></sup>.
+	</div>
+<br /><br /><br />
+</body>
+</html>
