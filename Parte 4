@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USCS - Parte 4</title>
+	<meta name="author" content="George Lucas" />
+	<meta name="keywords" content="Imagens" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+body {color: olive;}
+p, div {color: darkblue;}
+h1 {color: pink;}
+h3 {color: magenta;}
+h4 {color: lightseagreen;}
+hr {
+	border-color: indigo;
+	background-color: indigo;
+}
+header {
+	position:fixed;
+}
+a {
+	text-decoration: none;
+}
+
+a:link { /* link não visitado */
+  color: navy;
+}
+
+a:visited { /* link visitado */
+  color: green;
+}
+
+a:hover { /* link ao passar o ponteiro mouse */
+  color: hotpink;
+}
+
+a:active { /* link já selecionado */
+  color: blue;
+}
+	</style>
+</head>
+<body style="font-size:2em; text-align:center;">
+	<p>
+	  <nav style="background-color:lightgray;">
+		<a href="https://uscs.edu.br/" target="_blank">
+		  <img src="./img/uscs.png" alt="USCS" width="7%"/>
+		</a>&nbsp;
+		<div style="vertical-align:top;display:inline-block" >
+			<a href="https://www.w3schools.com/html/" >HTML</a> |
+			<a href="https://www.w3schools.com/css/" >CSS</a> |
+			<a href="https://www.w3schools.com/js/" >JavaScript</a> |
+			<a href="https://www.w3schools.com/python/" >Python</a>
+		</div>
+	  </nav>
+	  <h3>O elemento NAV</h3>
+	  <p>define o agrupamento de um conjunto de links de 
+		navegação:</p>
+	  <p> Em outra parte da página: 
+		<a href="javascript:alert('Fora do NAV');">Outro link.</a>
+	  </p>
+	</p>
+	<p>
+	  Consulte a <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.
+	</p>
+	<p>
+	  Nosso contato por <a href="mailto:contato@uscs.edu.br">e-mail</a>.
+	</p>
+	<p>
+	  <a href="tel:+11999999999">+11 9 9999 9999</a>
+	</p>
+	<p>
+	  <a href="javascript:alert('Olá Mundo!');">Execute</a> um JavaScript.
+	</p>
+	
+
+</body>
+</html>
